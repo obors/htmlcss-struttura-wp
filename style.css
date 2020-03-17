@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#box-wrapper{
+  width: 1200px;
+  margin: auto;
+  background-image: url("tbcgvood.jpg");
+}
+#nature{
+  width: 1200px;
+  height: 100px;
+  background-image: url("fores.jpg");
+  text-align: center;
+  border: 10px;
+  margin-top: 10px;
+}
+h1{
+  color: white;
+  text-transform: uppercase;
+}
+p{
+  color: white;
+  text-transform: uppercase;
+}
+.nature-menu{
+  width: 1200px;
+  height: 40px;
+  background-color: #504741;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+.nature-menu li {
+  list-style-type: none;
+  display: inline-block;
+}
+li{
+  color: white;
+  padding: 10px;
+
+}
+li p{
+  text-decoration: none;
+}
+
+aside{
+  width: 25%;
+  margin: auto;
+    float: left;
+
+}
+main{
+  width: 50%;
+  margin: auto;
+  float: left;
+}
+#box-midle::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer{
+  width: 1200px;
+  margin: auto;
+  background-color: blue;
+}
+.blocco-lateraledx{
+  height: auto;
+  background-color: white;
+  margin: 10px;
+
+}
+.blocco-centrale{
+  height: auto;
+  background-color: white;
+  margin: 10px;
+}
+.blocco-centrale p{
+  color: #000
+}
+.blocco-lateralesx{
+  height: auto;
+  background-color: white;
+  margin: 10px;
+}
+.blocco-laterales{
+  padding-right: 8px;
+  float: right;
+  font-size: 0.9em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 4%;
+  background-color: #706760;
+
+}
+.blocco-lateralesx{
+  margin-top: 25px;
+
+}
+.footerfirst{
+  width: 20%;
+  background-color: yellow;
+
+
+}
+.footersecond{
+  width: 20%;
+  background-color: green;
+  float: left;
+}
+.footerthorth{
+  width: 10%;
+  background-color: pink;
+  float: left;
+}
+.footerfourth{
+  width: 50%;
+  background-color: brown;
+  float: left;
+
+}
+.footerfooter{
+  width: 1200px;
+  background-color: coral;
+
+}
