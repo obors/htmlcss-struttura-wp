@@ -62,11 +62,6 @@ main{
   display: table;
   clear: both;
 }
-footer{
-  width: 1200px;
-  margin: auto;
-  background-color: blue;
-}
 .blocco-lateraledx{
   height: auto;
   background-color: white;
@@ -85,6 +80,10 @@ footer{
   height: auto;
   background-color: white;
   margin: 10px;
+  margin-top: 25px;
+}
+.blocco-lateralesx li{
+  list-style-type: none;
 }
 .blocco-laterales{
   padding-right: 8px;
@@ -96,34 +95,42 @@ footer{
   background-color: #706760;
 
 }
-.blocco-lateralesx{
-  margin-top: 25px;
+footer{
+  width: 1200px;
+  margin: auto;
+  background-image: url("tbcgvood.jpg");
 
 }
-.footerfirst{
+.footeruno{
   width: 20%;
   background-color: yellow;
 
-
 }
-.footersecond{
+.footerdue{
   width: 20%;
   background-color: green;
-  float: left;
+  float: right;
+
 }
-.footerthorth{
+.footertre{
   width: 10%;
   background-color: pink;
-  float: left;
+  float: right;
+
 }
-.footerfourth{
-  width: 50%;
+.footerquatro{
+  width: 40%;
   background-color: brown;
-  float: left;
+  float: right;
+
 
 }
 .footerfooter{
   width: 1200px;
   background-color: coral;
-
+}
+footer::after {
+  content: "";
+  display: table;
+  clear: both;
 }
